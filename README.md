@@ -2,7 +2,7 @@
 This is a Spring Boot Microservice that generates QR Codes.
 
 # Steps to run the program:
-Clone the code to your favorite IDE.
+Clone the code to your favorite IDE.  
 Run it.
 
 # Endpoints:
