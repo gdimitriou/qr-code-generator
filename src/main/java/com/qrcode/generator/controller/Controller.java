@@ -22,7 +22,6 @@ public class Controller {
 
     @PostMapping(
             path = "/from-given-string",
-            //consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.IMAGE_PNG_VALUE)
     public BufferedImage generateQRCodeImageFromString(
             @RequestBody QrCodeMessageRequestDTO qrCodeMessage) {
